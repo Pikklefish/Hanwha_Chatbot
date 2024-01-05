@@ -1,4 +1,4 @@
-# Hanwhan PDF Chat App
+# Hanwha PDF Chat App
 
 >This project is based off on alejandro's "ask-multiple-pdf" repository [repo](https://github.com/alejandro-ao/ask-multiple-pdfs)
 
@@ -27,7 +27,7 @@ The application follows these steps to provide responses to your questions:
 ----------------------------
 To install the MultiPDF Chat App, please follow these steps:
 
-1. Clone the repository to your local machine.
+1. This project works best on Github Clone the repository to your local machine.
 
 2. Install the required dependencies by running the following command:
    ```
@@ -56,10 +56,11 @@ To use the MultiPDF Chat App, follow these steps:
 
 5. Ask questions in natural language about the loaded PDFs using the chat interface.
 
-## Contributing
-------------
-This repository is intended for educational purposes and does not accept further contributions. It serves as supporting material for a YouTube tutorial that demonstrates how to build this project. Feel free to utilize and enhance the app based on your own requirements.
 
+##Errors and Troubleshooting
+-------
+1. streamlit command not recognized (path error)
+2. 
 ## License
 -------
 The MultiPDF Chat App is released under the [MIT License](https://opensource.org/licenses/MIT).
