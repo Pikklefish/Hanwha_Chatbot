@@ -56,7 +56,7 @@ To use the MultiPDF Chat App, follow these steps:
 5. Ask questions in natural language about the loaded PDFs using the chat interface.
 
 
-##Errors and Troubleshooting
+## Errors and Troubleshooting
 -------
 1. In Github Codespaces, "bash: streamlit: command not found"
 2. This is an error where "streamlit" is not recognized in the PATH.
