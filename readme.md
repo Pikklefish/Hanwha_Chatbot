@@ -1,5 +1,6 @@
 # Hanwha PDF Chat App
->TO Check ChatBot answers for the Hanwha 2024 Global internship program on `AI Track(Data Lab)_Case Study 기초자료` check the `Hanwha_Chatbot_Q&A` folder and the images inside it. Thank you~
+------------
+TO Check ChatBot answers for the Hanwha 2024 Global internship program on `AI Track(Data Lab)_Case Study 기초자료` check the `Hanwha_Chatbot_Q&A` folder and the images inside it. Thank you~
 
 ## Introduction
 ------------
