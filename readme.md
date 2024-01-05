@@ -1,6 +1,5 @@
 # Hanwha PDF Chat App
-
->This project is based off on alejandro's "ask-multiple-pdf" repository [repo](https://github.com/alejandro-ao/ask-multiple-pdfs)
+>TO Check ChatBot answers for the Hanwha 2024 Global internship program on `AI Track(Data Lab)_Case Study 기초자료` check the `Hanwha_Chatbot_Q&A` folder and the images inside it. Thank you~
 
 ## Introduction
 ------------
@@ -8,6 +7,7 @@ The MultiPDF Chat App is a Python application that allows you to chat with multi
 
 ## How It Works
 ------------
+>This project is based off on alejandro's "ask-multiple-pdf" repository [repo](https://github.com/alejandro-ao/ask-multiple-pdfs)
 
 The application follows these steps to provide responses to your questions:
 
