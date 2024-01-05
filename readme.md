@@ -9,8 +9,6 @@ The MultiPDF Chat App is a Python application that allows you to chat with multi
 ## How It Works
 ------------
 
-![MultiPDF Chat App Diagram](./docs/PDF-LangChain.jpg)
-
 The application follows these steps to provide responses to your questions:
 
 1. PDF Loading: The app reads multiple PDF documents and extracts their text content.
@@ -27,7 +25,7 @@ The application follows these steps to provide responses to your questions:
 ----------------------------
 To install the MultiPDF Chat App, please follow these steps:
 
-1. This project works best on Github Clone the repository to your local machine.
+1. This project works best on Github Codespaces but you may also Clone the repository to your local machine.
 
 2. Install the required dependencies by running the following command:
    ```
@@ -59,8 +57,16 @@ To use the MultiPDF Chat App, follow these steps:
 
 ##Errors and Troubleshooting
 -------
-1. streamlit command not recognized (path error)
-2. 
+1. In Github Codespaces, "bash: streamlit: command not found"
+2. This is an error where "streamlit" is not recognized in the PATH.
+3. To resolve this issue find where "streamlit" is located using this command ```find /home/codespace -name streamlit   ```
+4. Depending on where "streamlit" is located the PATH is different but usually it's this ```export PATH=$PATH:/home/codespace/.local/lib/python3.10/site-packages/bin```
+5. When that runs you may now try the program again ```streamlit run app.py```
+
+1. WHile `pip install` on your local machine sometimes SWIG and RUST might not work.
+2. Install those packages separately online and add them to PATH.
+3. Double check in the command prompt SWIG and RUST are installed by checking their `-version`.
+4. Re-run the progam
 ## License
 -------
 The MultiPDF Chat App is released under the [MIT License](https://opensource.org/licenses/MIT).
